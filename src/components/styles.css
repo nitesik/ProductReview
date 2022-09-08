@@ -1,0 +1,130 @@
+@media (min-width: 738px) {
+  @font-face {
+    font-family: Montserrat;
+    src: url("https://fonts.google.com/specimen/Montserrat");
+  }
+  
+  @font-face {
+    font-family: Fraunces;
+    src: url("https://fonts.google.com/specimen/Fraunces");
+  }
+  
+  .container {
+    background-color: white;
+    width: 500px;
+    height: 350px;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    border-radius: 10px;
+    font-family: Fraunces;
+    font-weight: lighter;
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+  }
+  
+  
+  .text {
+    text-align: start;
+    padding: 10px 20px 0px 20px;
+  }
+  
+  .title {
+    font-family: Fruances;
+    font-weight: 700;
+    font-size: 28px;
+    color: black;
+    margin: 0 30px 0 0;
+  }
+  
+  .paragraph {
+    margin: 12px 30px 0 0;
+  }
+  
+  .price {
+    font-size: 30px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+  }
+  
+  .price span {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-decoration: line-through;
+    color:hsl(228, 12%, 48%);
+  }
+  .button {
+    margin-top: 15px;
+
+  }
+}
+
+@media (max-width: 738px) {
+  .container {
+    background-color: white;
+    width: 320px;
+    height: 600px;
+    display: grid;
+    grid-template: 4fr 5fr / 1fr;
+    border-radius: 10px;
+    font-family: Fraunces;
+    font-weight: lighter;
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+  }
+  .text {
+    text-align: start;
+    padding: 10px 20px 0px 20px;
+  }
+
+  .title {
+    font-family: Fruances;
+    font-weight: 700;
+    font-size: 28px;
+    color: black;
+    margin: 0 50px 0 0;
+
+  }
+
+  .paragraph {
+    margin: 12px 0px 0 0;
+    padding-right: 45px;
+  }
+  .price {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+  }
+  
+  .price span {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-decoration: line-through;
+    color:hsl(228, 12%, 48%);
+  }
+
+  .button {
+    margin-top: 30px;
+
+  }
+}
+
+.button {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid hsl(158, 36%, 37%);
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 5px;
+}
+
+.button img {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
