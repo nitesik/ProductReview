@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ProductReview/static/css/main.9bb3a69d.css",
+    "main.js": "/ProductReview/static/js/main.ed0145b5.js",
+    "static/js/787.59440ad7.chunk.js": "/ProductReview/static/js/787.59440ad7.chunk.js",
+    "static/media/image-product-desktop.jpg": "/ProductReview/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
+    "static/media/image-product-mobile.jpg": "/ProductReview/static/media/image-product-mobile.113818bc746dc8e64ffb.jpg",
+    "index.html": "/ProductReview/index.html",
+    "main.9bb3a69d.css.map": "/ProductReview/static/css/main.9bb3a69d.css.map",
+    "main.ed0145b5.js.map": "/ProductReview/static/js/main.ed0145b5.js.map",
+    "787.59440ad7.chunk.js.map": "/ProductReview/static/js/787.59440ad7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bb3a69d.css",
+    "static/js/main.ed0145b5.js"
+  ]
+}
